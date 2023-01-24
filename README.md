@@ -61,8 +61,8 @@ Pick several of the Java format specifiers below and define variables of the cor
 | priceless     | String        | "hello", "WoRlD", "9654" |
 
 ### Examples of Incorrect Variable Assignment
-| Variable Name | Declaration/Assignment  | Why it's wrong                                                                    |
-|---------------|-------------------------|-----------------------------------------------------------------------------------|
-| numString     | String numString = 1653 | Strings *can* contain numbers, but they *must* have quotes around them, ex: "123" |
-| simpleBool    | boolean simpleBool = t  | booleans *must* be either __true__ *or* __false__ , nothing else                  |      
+| Variable Name | Declaration/Assignment   | Why it's wrong                                                                    |
+|---------------|--------------------------|-----------------------------------------------------------------------------------|
+| numString     | String numString = 1653; | Strings *can* contain numbers, but they *must* have quotes around them, ex: "123" |
+| simpleBool    | boolean simpleBool = t;  | booleans *must* be either __true__ *or* __false__ , nothing else                  |      
 
